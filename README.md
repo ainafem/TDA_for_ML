@@ -11,18 +11,18 @@ In this master thesis, we study the possible applications of Topological Data An
 ## Notebooks
 The following notebooks have been produced as a result of this thesis. Note that all notebooks are ready to be executed in Google Colab, and as such, they have implemented a snippet of cod that downloads Gudhi and the dataset from Kaggle. If the code has to be executed in a local computer, one will need the Gudhi library and Keras. 
 
-1. GudhiTutorial.ipynb
+1. [Gudhi Tutorial](GudhiTutorial.ipynb)
 
 It shows basic operations necessary to perform Topological Data Analysis. 
 
-2. TDA_Arrhythmia_Exploration.ipynb
+2. [Initial Exploration](TDA_Arrhythmia_Exploration.ipynb)
 
 Contains the first exploration of the data that we performed. There are no exposable results here.
 
-3. TDA_distances.ipynb
+3. [Topological Data Analysis with distances](TDA_distances.ipynb)
 
 Performs a more Machine Learning approach of the problem. We play with our dataset, landscape representations and several distances.
 
-4. TDA_DeepLearning.ipynb
+4. [Topological Data Analysis with Deep Learning](TDA_DeepLearning.ipynb)
 
 Mixes the results of Topological Data Analysis with the power of Deep Learning. 
