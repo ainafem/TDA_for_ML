@@ -26,3 +26,20 @@ Performs a more Machine Learning approach of the problem. We play with our datas
 4. [Topological Data Analysis with Deep Learning](TDA_DeepLearning.ipynb)
 
 Mixes the results of Topological Data Analysis with the power of Deep Learning. 
+
+5. [Reconstruction of signals from Persistence Diagrams](mathematical_reconstruction.ipynb)
+
+Proposes an algorithm to reconstruct signal functions from three different persistence diagrams. Compares such algorithm with a naive algorithm. Checks that the algorithm reconstructs piece-wise linear functions and applies the result to ECG heartbeats.
+
+## Conclusions
+
+In this master thesis, we give a comprehensible theoretical background for the study of Persistent Homology and, more precisely, the study of Topological Data Analysis. We give examples of computations and programs that can be applied with real world data. Moreover, we explore the possibility of the reconstruction of functions, a very recent problem (last papers are from 2020). In that sense, we give a new original algorithm that is able to reconstruct, up to piece-wise homotopy, piece-wise linear functions. 
+
+Then, we apply Topological Data Analysis to a particular problem: classifying anomalies in ECG heartbeats. For that matter, we apply TDA as a exploratory tool of the data. Later on, we also use Persistent Homology as a feature extractor to enhance the Deep Learning capabilities. In that line, we propose a new data representation through Persistent Landscapes and we check that they contain important geometrical information. Moreover, we study the explainability properties that they have through the reconstruction of important landscapes that the network has selected. 
+
+In summary, original contributions:
+1. A different reconstruction algorithm for functions from three persistence diagrams.
+2. An insightful vision of TDA as a tool to explore a dataset.
+3. A new data representation using Persistence Landscapes as features to feed a neural network.
+4. A new layer that automatically selects the more important landscapes.
+5. Explanation and interpretation of the results through the reconstruction of the original signal using the selected landscapes by the network.
